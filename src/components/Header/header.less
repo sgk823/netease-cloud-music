@@ -1,0 +1,111 @@
+*, *::before,*::after {
+  box-sizing: content-box !important;
+}
+
+header .container {
+  width: 1100px;
+  margin: auto;
+
+}
+
+header>div:first-child {
+  height: 69px;
+  line-height: 69px;
+  border-bottom: 1px solid #000;
+  background-color: #242424;
+
+  .container {
+    height: 100%;
+    
+    >div {
+      float: left;
+
+      &:nth-child(1) a {
+        display: inline-block;
+        height: 69px;
+        width: 157px;
+        background: url('../../assets/img/topbar.png') no-repeat 0 9999px;
+        background-position: 0 0;
+        padding-right: 20px;
+      }
+
+      &:nth-child(2) li {
+        display: inline;
+        font-size: 14px;
+        padding: 0 19px;
+
+        a {
+          color: #ccc;
+        }
+
+      }
+      
+      &:nth-child(3) {
+        margin-left: 20px;
+        padding-right: 22px;
+        a {
+          color: #ccc;
+        }
+      }
+
+      &:nth-child(4) a {
+        display: inline-block;
+        width: 90px;
+        height: 32px;
+        line-height: 32px;
+        text-align: center;
+        border: 1px solid #4F4F4F;
+        vertical-align: middle;
+        color: #fff;
+
+        margin-left: 12px;
+        border-radius: 20px;
+      }
+      
+      &:nth-child(5) input {
+        width: 158px;
+        height: 32px;
+        line-height: 32px;
+        border-radius: 32px;
+        border: none;
+        padding: 0;
+      }
+
+      &:nth-child(3),&:nth-child(4),&:nth-child(5) {
+        float: right;
+        font-size: 12px;
+      }
+
+    }
+  }
+}
+
+header>div:last-child {
+  height: 34px;
+  line-height: 34px;
+  border-bottom: 1px solid #a40011;
+  background-color: #c20c0c;
+
+  .container {
+    height: 100%;
+
+    ul {
+      height: 100%;
+      padding-left: 180px;
+      font-size: 12px;
+
+      li {
+        float: left;
+        padding: 0 13px;
+        margin: 0 17px;
+
+        a {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+
+

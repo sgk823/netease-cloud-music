@@ -1,0 +1,103 @@
+#login {
+  position: relative;
+  top: 173px;
+  left: 711px;
+  width: 530px;
+  height: 358px;
+  border-radius: 4px;
+  box-shadow: 0 5px 16px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+}
+#login > div:first-child {
+  height: 38px;
+  line-height: 38px;
+  padding: 0 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2d2d2d;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+#login > div:first-child span {
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+}
+#login > div:first-child i {
+  font-size: 20px;
+  color: #d6d6d6;
+  cursor: pointer;
+}
+#login > div:nth-child(2) {
+  padding: 40px 0 39px 0;
+  text-align: center;
+  font-size: 12px;
+  position: absolute;
+  top: 38px;
+  left: 0;
+  right: 0;
+  height: 320px;
+}
+#login > div:nth-child(2) > div:first-child {
+  width: 300px;
+  margin: 0 auto;
+}
+#login > div:nth-child(2) > div:first-child > p:nth-of-type(1) > button,
+#login > div:nth-child(2) > div:first-child > p:nth-of-type(2) > button {
+  width: 219px;
+  height: 32px;
+  font-size: 13px;
+  margin-top: 10px;
+}
+#login > div:nth-child(2) > div:first-child > p:first-of-type {
+  margin-top: 10px;
+}
+#login > div:nth-child(2) > div:first-child > p:last-of-type {
+  margin-top: 10px;
+}
+#login > div:nth-child(2) > div:first-child > p:last-of-type input {
+  vertical-align: bottom;
+  margin-right: 6px;
+}
+#login > div:nth-child(2) > div:last-child {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 52px;
+  height: 52px;
+  background-image: url('../../assets/img/qr_login_icon.png');
+  background-size: contain;
+}
+#login > div:nth-child(3),
+#login > div:nth-child(4) {
+  position: absolute;
+  top: 38px;
+  left: 0;
+  right: 0;
+}
+#login > div:nth-child(3) > div:first-child,
+#login > div:nth-child(4) > div:first-child {
+  width: 248px;
+  padding: 30px 0 43px;
+  margin: auto;
+}
+#login > div:nth-child(3) > div:last-child,
+#login > div:nth-child(4) > div:last-child {
+  position: absolute;
+  bottom: -25px;
+  width: 100%;
+  height: 48px;
+  line-height: 48px;
+  padding: 0 19px;
+  border-top: 1px solid #c6c6c6;
+  background-color: #f7f7f7;
+  font-size: 13px;
+}
+#login > div:nth-child(4) > div:last-child {
+  bottom: -11px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

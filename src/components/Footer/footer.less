@@ -1,0 +1,105 @@
+footer {
+  height: 172px;
+  background-color: #f2f2f2;
+  border-top: 1px solid #d3d3d3;
+
+  .container {
+    width: 980px;
+    height: 120px;
+    margin: auto;
+  }
+}
+
+footer .container>div {
+  &:first-child {
+    float: left;
+    width: 520px;
+    line-height: 24px;
+    padding-top: 15px;
+    font-size: 12px;
+    color: #666;
+    a {
+      color: #666;
+    }
+
+    p:nth-child(1) {
+      color: #999;
+      a {
+        color: #999;
+      }
+
+      span {
+        margin: 0 8px 0 10px;
+      }
+    }
+  }
+
+  &:last-child {
+    float: right;
+    width: 420px;
+    margin-top: 33px;
+
+    ul>li {
+      float: left;
+      width: 60px;
+      height: 70px;
+      margin-left: 30px;
+
+      &:first-of-type {
+        margin-left: 0;
+  
+        a {
+          background-position: -63px -456.5px;
+        }
+
+        span {
+          background-position: 0 -108px;
+        }
+      }
+
+      &:nth-child(2) {
+        a {
+          background-position: -63px -101px;
+        }
+        span {
+          background-position: -1px -91px;
+        }
+      }
+      &:nth-child(4) {
+        a {
+          background-position: -60px -50px;
+        }
+        span {
+          background-position: 0 -54px;
+        }
+      }
+      &:nth-child(5) {
+        a {
+          background-position: 0 -101px;
+        }
+        span {
+          background-position: -1px -72px;
+        }
+      }
+    }
+
+    a {
+      display: block;
+      width: 50px;
+      height: 45px;
+      background: url('../../assets/img/foot_enter_new.png') no-repeat;
+      background-size: 110px 552px;
+      margin: 0 5px;
+    }
+
+    span {
+      display: inline-block;
+      width: 52px;
+      height: 14px;
+      background: url('../../assets/img/foot_enter_tt.png') no-repeat;
+      background-size: 180px 139px;
+      margin: 5px 5px 0;
+    }
+
+  }
+}
