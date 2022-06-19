@@ -1,8 +1,3 @@
-/* 
-  路由配置
-
-*/
-
 const routes = [
   {
     path: '',

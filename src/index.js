@@ -4,7 +4,7 @@ import {HashRouter as Router} from 'react-router-dom'
 import App from './App'
 
 import './lib/reset.css'
-import './styles/global.css'
+import './styles/global.less'
 
 
 ReactDom.render(

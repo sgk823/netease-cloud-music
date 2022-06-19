@@ -1,12 +1,18 @@
-import React, {Component, Fragment} from 'react';
+import React, {Component, Fragment} from 'react'
 import {
   useNavigate,
 
 } from 'react-router-dom'
-import { nanoid } from 'nanoid';
+import { nanoid } from 'nanoid'
 
-import Login from '../../pages/Login';
-import './header.less';
+import styleSheet from './index.module.less'
+
+
+const {
+  container,
+  topbar,
+  navbar
+} = styleSheet
 
 
 function Header(props){
@@ -14,8 +20,8 @@ function Header(props){
 
   return (
     <header>
-      <div>
-        <div className="container">
+      <div className={topbar}>
+        <div className={container}>
           <div><a href=""></a></div>
           <div>
             <ul>
@@ -32,9 +38,8 @@ function Header(props){
           <div><input type="text" /></div>
         </div>
       </div>
-
-      <div>
-        <div className="container">
+      <div className={navbar}>
+        <div className={container}>
           <ul>
             <li><a href=""><span>推荐</span></a></li>
             <li><a onClick={()=>navigate('/discover/toplist')}><span>排行榜</span></a></li>

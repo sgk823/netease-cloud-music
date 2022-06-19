@@ -3,7 +3,7 @@ import img from '../../assets/img/platform.png'
 import { Form, Input, Select, Tooltip, Button, Space, Typography } from 'antd';
 import './login.less';
 
-const { Option } = Select;
+const { Option } = Select
 
 const prefixSelector = (
   <Form.Item name="prefix" noStyle>
